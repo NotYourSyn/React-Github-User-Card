@@ -3,7 +3,7 @@ import Card from './Card';
 
 const UserCards = (props) => {
     return(
-        <div>
+        <div className='card-container'>
             <Card profile={props.gitCard}/>
         </div>
     )
